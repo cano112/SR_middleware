@@ -1,0 +1,32 @@
+<state>
+  <timestamp value='1525713665853' />
+  <sourceSet name='default'>
+    <source name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank.ice'>
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\model\Currency.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\model\AccountType.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\model\PersonDetails.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\model\Account.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\model\StandardAccount.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\model\PremiumAccount.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\ExceptionWithReason.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\BadRequestException.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\PermissionDeniedException.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\AccountOpenRequest.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\AccountOpenResponse.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\AccountService.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\CreditEnquiryResponse.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\CreditRequest.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\BalanceResponse.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\StandardAccountOperationsService.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\PremiumAccountOperationsService.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\AccountServicePrx.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\_AccountServicePrxI.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\StandardAccountOperationsServicePrx.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\_StandardAccountOperationsServicePrxI.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\PremiumAccountOperationsServicePrx.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\banking-generated\src\main\ice\pl\edu\agh\wiet\sr\banking\generated\services\_PremiumAccountOperationsServicePrxI.java' />
+    </source>
+    <arg value='C:\Program Files\ZeroC\Ice-3.7.1\\bin\slice2java.exe' />
+    <arg value='-IC:\Program Files\ZeroC\Ice-3.7.1\\slice' />
+  </sourceSet>
+</state>

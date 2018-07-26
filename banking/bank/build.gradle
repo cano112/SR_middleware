@@ -1,0 +1,79 @@
+group 'pl.edu.agh.wiet.sr'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'com.google.protobuf'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+mainClassName = "pl.edu.agh.wiet.sr.banking.bank.Bank"
+
+dependencies {
+    compile project(':banking-generated')
+    compile 'io.grpc:grpc-netty:1.11.0'
+    compile 'io.grpc:grpc-protobuf:1.11.0'
+    compile 'io.grpc:grpc-stub:1.11.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.11.0'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        // ASSUMES GRADLE 2.12 OR HIGHER. Use plugin version 0.7.5 with earlier
+        // gradle versions
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.3'
+    }
+}
+
+sourceSets {
+    main {
+        proto {
+            // In addition to the default 'src/main/proto'
+            srcDir '../../currency-service/proto'
+        }
+        java {
+
+        }
+    }
+}
+
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.5.1-1"
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.11.0'
+        }
+    }
+    generateProtoTasks {
+        all()*.plugins {
+            grpc {}
+        }
+    }
+
+    generatedFilesBaseDir = "$rootDir/banking-generated/src"
+}
+
+jar {
+    manifest {
+        attributes(
+            "Main-Class": 'pl.edu.agh.wiet.sr.banking.bank.Bank',
+            "Class-Path": configurations.runtime.resolve().collect { it.toURI() }.join(' ')
+        )
+
+    }
+}
+
+run {
+    if (project.hasProperty("appArgs")) {
+        args Eval.me(appArgs)
+    }
+
+    systemProperties['java.util.logging.config.file'] = 'logging.properties'
+}

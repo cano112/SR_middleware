@@ -1,0 +1,29 @@
+group 'pl.edu.agh.wiet.sr'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+apply plugin: 'application'
+
+mainClassName = "pl.edu.agh.wiet.sr.banking.client.Client"
+
+dependencies {
+    compile project(':banking-generated')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class": "pl.edu.agh.wiet.sr.banking.client.Client",
+                "Class-Path": configurations.runtime.resolve().collect { it.toURI() }.join(' ')
+        )
+    }
+}
+
+run {
+    if (project.hasProperty("appArgs")) {
+        args Eval.me(appArgs)
+    }
+}

@@ -1,0 +1,24 @@
+<state>
+  <timestamp value='1525540391286' />
+  <sourceSet name='default'>
+    <source name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank.ice'>
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\Model\Currency.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\Model\PersonDetails.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\Model\Account.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\Model\StandardAccount.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\Model\PremiumAccount.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\AccountOperations\AccountOpenRequest.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\AccountOperations\AccountOpenResponse.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\AccountOperations\AccountService.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\AccountOperations\CreditEnquiryResponse.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\AccountOperations\CreditRequest.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\AccountOperations\CreditService.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\AccountOperations\AccountServicePrx.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\AccountOperations\_AccountServicePrxI.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\AccountOperations\CreditServicePrx.java' />
+      <file name='C:\Users\kamil\OneDrive\Studia\Rozprochy\middleware_lab\banking\bank\build\generated-src\AccountOperations\_CreditServicePrxI.java' />
+    </source>
+    <arg value='C:\Program Files\ZeroC\Ice-3.7.1\\bin\slice2java.exe' />
+    <arg value='-IC:\Program Files\ZeroC\Ice-3.7.1\\slice' />
+  </sourceSet>
+</state>

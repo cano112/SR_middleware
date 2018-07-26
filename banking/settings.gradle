@@ -1,0 +1,5 @@
+rootProject.name = 'banking'
+include 'banking-generated'
+include 'bank'
+include 'client'
+
